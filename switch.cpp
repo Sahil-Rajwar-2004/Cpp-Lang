@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 	char button;
-	cout<<"Input a character (a,b,c,d,e)";
+	cout<<"Input a character (a,b,c,d,e): ";
 	cin>>button;
 	
 	switch (button)
