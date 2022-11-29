@@ -2,9 +2,9 @@
 using namespace std;
 
 int main(){
-	int n;
-	n = 3<<2;
-	cout<<n<<endl;
+	int num,left,res;
+	res = num<<left;
+	cout<<res<<endl;
 	return 0;
 }
 
