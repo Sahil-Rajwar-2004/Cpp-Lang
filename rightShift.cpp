@@ -2,9 +2,10 @@
 using namespace std;
 
 int main(){
-	int n;
-	n = 3>>2;
-	cout<<n<<endl;
+	int num,right,res;
+	cin>>num>>right;
+	res = num>>right;
+	cout<<res<<endl;
 	return 0;
 }
 
