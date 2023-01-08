@@ -11,7 +11,7 @@ int main(){
 			}else{
 				start = 0;
 			}
-			cout<<start;
+			cout<<start<<" ";
 		}
 		cout<<endl;
 	}
