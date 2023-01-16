@@ -4,7 +4,8 @@ using namespace std;
 int main(){
 	int n;
 	cin>>n;
-	int *ptr = &n;
+	int *ptr = 0;
+	ptr = &n;
 	cout<<"n = "<<n<<endl;
 	cout<<"&n = "<<&n<<endl;
 	cout<<"ptr = "<<ptr<<endl;
