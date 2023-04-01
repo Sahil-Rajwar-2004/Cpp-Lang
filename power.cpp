@@ -1,19 +1,17 @@
 #include <iostream>
 using namespace std;
 
-void power(int base,int exp){
-	int ans=1;
-	for(int i=0;i<exp;i++){
-		ans*=base;
+int solve(int num,int power){
+	if(power == 0){
+		return 1;
 	}
-	cout<<ans<<endl;
+	return num*solve(num,power-1);
 }
 
 int main(){
-	int x,y;
-	cin>>x>>y;
-	power(x,y);
+	int num,power;
+	cin>>num>>power;
+	cout<<solve(num,power)<<endl;
 	return 0;
 }
-
 
