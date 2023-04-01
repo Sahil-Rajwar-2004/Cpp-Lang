@@ -14,4 +14,3 @@ int main(){
 	cout<<solve(num,power)<<endl;
 	return 0;
 }
-
